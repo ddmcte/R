@@ -1,0 +1,36 @@
+---
+title: "penguin data viz"
+author: "Didem"
+date: "22/01/2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r ggplot for penguin data}
+library(ggplot2)
+
+library(palmerpenguins)
+
+data(penguins)
+```
+
+
+```{r ggplot for penguin data}
+```
+
+
+```{r ggplot for penguin data}
+View(penguins)
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r ggplot for penguin data visualization}
+
+ggplot(data = penguins) +
+
+    geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
