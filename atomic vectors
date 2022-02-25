@@ -1,0 +1,23 @@
+#Here is an example of a variable
+first_variable <- "This is my variable"
+second_variable <- 12.5
+vec_1 <- c(13, 48.5, 71, 101.5, 2)
+vec_1
+vec_2 <- c(8, 4, 19, 16, 7, 21)
+vec_2
+x <- c(5.5, 7.5, 8.1)
+
+x  <- c(2L,  5L,  11L)
+is.integer(x)
+y <- c(TRUE, FALSE, TRUE)
+is.double(y)
+x <- c(1, 3, 5)
+names(x) <- c("a", "b", "c")
+x <- c(1, 3, 5)
+names(x) <- c("a", "b", "c")
+z <- list(list(list(1, 3, 5)))
+str(z)
+b <- list(list(list("ada", 1.2, 5L, TRUE)))
+str(b)
+sales_1 <- c(67.009, 75.50, 000, 54.74)
+str(sales_1)
