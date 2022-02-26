@@ -1,0 +1,20 @@
+x <- 4
+if (x>0) {print ("x is a positive number")}
+x <- -4
+if (x > 0) {print ("x is a positive number")}
+x <- 4
+if (x > 0) {
+  
+  print("x is a positive number")}
+library(tidyverse)
+head(diamonds)
+str(diamonds)
+glimpse(diamonds)
+colnames(diamonds)
+rename(diamonds, carat_new= carat)
+rename(diamonds, carat_new= carat, cut_new= cut)
+summarize(diamonds, mean_carat= mean(carat))
+summarize(diamonds, mean_price= mean(price))
+ggplot(data= diamonds, aes(x= carat, y=price)) + geom_point()
+ggplott(data= diamonds, aes(x=carat, y=price, color=cut)) + geom_point()
+ggplot(data= diamonds, aes(x=carat, y=price, color=cut)) + geom_point()+ facet_wrap(~cut)
