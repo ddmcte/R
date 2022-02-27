@@ -1,0 +1,19 @@
+# our first calculations
+quarter_1_sales <- 35657.98
+quarter_2_sales <- 43810.55
+midyear_sales <- quarter_1_sales + quarter_2_sales
+topak_deniz <- 34
+topak_ada <- 26
+asklarim <- topak_ada + topak_deniz
+sevgililer <- asklarim *8
+X <- 10
+x>3 & X<12
+Y <- 44
+Y>55 & Y<65
+Y>55 | Y<65
+! TRUE
+Solar.R >150 & Wind> 10
+x <- 2
+!
+x == 3
+x<5 & x>2
