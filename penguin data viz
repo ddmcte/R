@@ -34,3 +34,32 @@ ggplot(data = penguins) +
 
     geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
 ```
+
+install.packages("tidyverse")
+library("tidyverse")
+install.packages("here")
+install.packages("skimr")
+library("skimr")
+install.packages("janitor")
+library("janitor")
+install.packages("dplyr")
+library("dplyr")
+install.packages("palmerpenguins")
+library(palmerpenguins)
+View(palmerpenguins)
+glimpse(penguins)
+View(penguins)
+colnames(palmerpenguins)
+penguins %>%
+  select(-species)
+penguins %>%
+  rename(island_new= island)
+rename_with(penguins, toupper)
+rename_with(penguins, tolower)
+clean_names(penguins)
+penguins %>%
+  arrange(bill_length_mm)
+penguins %>%
+  arrange(year)
+penguins &>&
+  arranege(-bill_length_mm)
